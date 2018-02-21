@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat|PT+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+	<style>
+	html, body{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		background-color: #FCDEBE;
+	}
+
+	div{
+		box-sizing: border-box;
+		float: left;
+	}
+
+	.wrapper{
+		width: 100%;
+		height: 100%;
+		background-color: #FCDEBE;
+	}
+
+	.header{
+		background-color: #230903;
+		width: 100%;
+		height: 20%;
+		color: white;
+		font-family: 'Abril Fatface', cursive;
+		padding-top: 5vmax;
+		padding-bottom: 3vmax;
+	}
+
+	.name{
+		font-size: 50px;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+
+	.menu-items{
+		background-color: #FCDEBE;
+		width: 100%;
+		float: left;
+	}
+
+	.drinks{
+		padding: 5vmax;
+		width: 50%;
+	}
+	.food{
+		padding: 5vmax;
+		background-color: #FCDEBE;
+		width: 50%;
+	}
+
+	.menu-title{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 30px;
+		color: #230903;
+		font-weight: 500;
+	}
+
+	.menu-item{
+		position: relative;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.menu-item-title{
+		color: #816C61;
+		font-family: 'Montserrat', sans-serif;
+		margin-top: 20px;
+		width: 100%;
+		font-size: 20px;
+	}
+
+	.price{
+		height: 100%;
+		width: auto;
+		float: right;
+	}
+
+	.menu-item-description{
+		color: #AAA694;
+		font-family: 'Inconsolata', monospace;
+		width: 100%;
+		margin-top: 7px;
+		float: left;
+	}
+
+	@media screen and (max-width: 600px) {
+	.menu-items{
+
+		width: 100%;
+		height: 75%;
+	}
+
+	.drinks{
+		width: 100%;
+	}
+	.food{
+		width: 100%;
+	}
+	}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="name">
+				bohemian
+			</div>
+		</div>
+		<div class="menu-items">
+			<div class="drinks">
+				<div class="menu-title">DRINKS</div>
+				<div class="menu-item">
+					<div class="menu-item-title">Besame Mucho<div class="price">12</div></div>
+					<div class="menu-item-description">Sombra Mezcal, Cointreau, Homemade Jalapeno Honey, Fresh Lime Juice
+					</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Type C <div class="price">14</div></div>
+					<div class="menu-item-description">Yuzu Pepper Infused Junipero Gin, Homemade Yuzu Honey, Fresh Lemon Juice, Yuzu Salt Rim</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">New York<div class="price">11</div></div>
+					<div class="menu-item-description">Homemade Pomegranate Syrup, Fresh Lime Juice, Angostura Bitters</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">The Missing Piece<div class="price">12</div></div>
+					<div class="menu-item-description">Mizunomai Shochu, Taketsuru Pure Malt Whiskey, Grand Marnier, Coconut Cream, Matcha Powder, Sea Salt</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Bergamot<div class="price">13</div></div>
+					<div class="menu-item-description">Earl Grey Infused Greylock Gin, Fresh Lemon Juice, Organic Raw Egg White, Angostura Bitters</div>
+				</div>
+			</div>
+			<div class="food">
+				<div class="menu-title">FOOD</div>
+				<div class="menu-item">
+					<div class="menu-item-title">Angry Sweet Potato<div class="price">9</div></div>
+					<div class="menu-item-description">sriracha goat cheese, chilli pepper
+					</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Avocado<div class="price">9</div></div>
+					<div class="menu-item-description">greens vinaigrette, pickled radish, crème fraiche, chichimi pepper</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Kale<div class="price">10</div></div>
+					<div class="menu-item-description">stilton-daikon vinaigrette, mung bean sprout, brussel sprout</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Ugly Potato<div class="price">10</div></div>
+					<div class="menu-item-description">crispy fingerling potato, feta cheese, smokey BBQ sauce</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Pork Belly<div class="price">17</div></div>
+					<div class="menu-item-description">apple-ssamjang glaze, guacamole</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Steak<div class="price">20</div></div>
+					<div class="menu-item-description">soy-garlic glaze, feta grits, sautéed kale</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Chicharron<div class="price">18</div></div>
+					<div class="menu-item-description">crispy pork belly, cashew crème, white kimchi</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Truffle Mac and Cheese
+						<div class="price">13</div>
+					</div>
+					<div class="menu-item-description">manila clam, fontina, gruyere, mozzarella</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Hwe Soba
+						<div class="price">13</div>
+					</div>
+					<div class="menu-item-description">buckwheat noodles, yellow fin tuna, korean style spicy chilled broth</div>
+				</div>
+
+				<div class="menu-item">
+					<div class="menu-item-title">Tuna Tataki
+						<div class="price">MARKET PRICE</div>
+					</div>
+					<div class="menu-item-description">hummus coulis, sesame vinaigrette, crunchy quinoa, serrano pepper, sumac</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
