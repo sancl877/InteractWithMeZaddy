@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+position: absolute;
+}
+</style>
+</head>
+<body>
+</body>
+<script>
+
+//functions
+//Math.random() is a function
+
+function randomInt(low, high){
+var random = parseInt(Math.random() * (high-low) + low);
+return random;
+}
+
+document.onmousedown = function(event){
+
+	console.log(event);
+	var d = document.createElement("div");
+	d.style.backgroundColor = "hsl(" + randomInt(30,100) + "," + randomInt(30,100) + "%," + randomInt(30,100) + "%)";
+	//string plus random number plus string
+	// d.style.width = randomInt(10,100) + "px";
+	var width = randomInt(10,100);
+	var height = randomInt(10,100);
+	d.style.width = randomInt(10,100) + "px";
+	d.style.height = randomInt(10,100) + "px";
+	d.style.top= event.y - height/2 +"px";
+	d.style.left= event.x - width/2 +"px";
+
+	document.body.appendChild(d);
+
+}
+
+
+</script>
+</html>

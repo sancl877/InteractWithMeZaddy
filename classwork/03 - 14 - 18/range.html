@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+position: absolute;
+}
+</style>
+</head>
+<body>
+</body>
+<script>
+
+//functions
+//Math.random() is a function
+
+function randomInt(low, high){
+var random = parseInt(Math.random() * (high-low) + low);
+return random;
+}
+
+var myInt = randomInt(-100, 100);
+//its replacingx the LOW and HIGH stated in the randomInt
+console.log(myInt);
+
+</script>
+</html>

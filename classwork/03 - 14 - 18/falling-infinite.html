@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+p{
+	position: absolute;
+	font-size: 4em;
+	font-family: helvetica;
+}
+		
+</style>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+
+function randomInt(low, high){
+var random = parseInt(Math.random() * (high-low) + low);
+return random;
+}
+
+
+var array = []
+
+document.onmousedown = function(event){
+		var letter = document.createElement("p");
+		letter.velocity= 1;
+		letter.style.top = event.y + "px";
+		letter.style.left = event.x + "px";
+		letter.style.transform = "rotate(" + randomInt(-70,70) + "deg)";
+		letter.innerHTML = '"pee pee"';
+		// var allletters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		// letter.innerHTML = allletters [ parseInt(Math.random()*allletters.length) ];
+		document.body.appendChild(letter);
+		array.push( letter );
+	}
+//during our loop, we will move the letters down
+function loop(){
+		var counter = 0; 
+		while (counter < array.length){
+			var letter = array [counter];
+			var y = parseInt (letter.style.top);
+			y= y + letter.velocity;
+			letter.velocity = letter.velocity +0.1;
+			letter.style.top = y + "px";
+			counter = counter+1
+		}
+
+	}
+//how you make animations
+	setInterval(loop, 1000/60);
+</script>
+</html>
