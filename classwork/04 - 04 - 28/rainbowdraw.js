@@ -3,6 +3,7 @@ var color = 0;
 document.onmousemove= function(event){
 	// var x = event["x"];
 	// var y = event["y"];
+	// . is the same as saying [""]
 	var x = event.x;
 	var y = event.y;
 	console.log( x, y);

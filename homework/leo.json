@@ -1,0 +1,25 @@
+{
+	
+	"name": {
+		"full": "Leoder Sanchez",
+		"nickname": "Leo",
+		"alias": "leoderant"
+	},
+
+	"home": {
+		"latitude": "40.7027",
+		"longitude": "73.7890"
+	},
+
+	"url": {
+		"website": "https://www.leodersanchez.com/",
+		"instagram": "https://www.instagram.com/leoderant/"
+	},
+
+	"favorites": {
+		"color": "gunmetal",
+		"book": "Call Me By Your Name by Andre Aciman",
+		"tool": "camera",
+		"temperature": "53.9"
+	}
+}
