@@ -1,14 +1,14 @@
 {
 	"pride-bandana": {
-		"name":"pride",
-		"memory":"",
-		"description":"",
+		"name":"pride bandana",
+		"memory":"pride-bandana-memory",
+		"description":"pride description",
 		"emotion": "joy",
 		"age": "adolescence"
 	},
 
 	"10-commandments": {
-		"memory":"",
+		"memory":"10-commandments",
 		"description":"",
 		"emotion": "fear",
 		"age": "infancy"
