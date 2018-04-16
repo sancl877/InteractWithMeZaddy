@@ -1,0 +1,205 @@
+{
+	"pride-bandana": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "adolescence"
+	},
+
+	"10-commandments": {
+		"memory":"",
+		"description":"",
+		"emotion": "fear",
+		"age": "infancy"
+	},
+	"choir-toga": {
+		"memory":
+		"description",
+		"emotion": "sadness",
+		"age": "childhood"
+	},
+
+	"hymnal": {
+		"memory":"",
+		"description":"",
+		"emotion": "sadness",
+		"age": "childhood"
+	},
+
+	"fitness-mat": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "childhood"
+	},
+	"spam": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "childhood"
+	},
+	"gamecube": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "early-adolescence"
+	},
+
+	"sailor-moon": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "chilhood"
+	},
+
+	"a-walk-to-remember": {
+		"memory":"",
+		"description":"",
+		"emotion": "disgust",
+		"age": "infancy"
+	},
+
+	"pokemon": {
+		"memory":"",
+		"description":"",
+		"emotion": "anger",
+		"age": "childhood"
+	},
+
+	"pikachu-necklace": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "infancy"
+	},
+	"mother": {
+		"memory":"",
+		"description":"",
+		"emotion": "sadness",
+		"age": "childhood"
+	},
+
+	"father": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "late-adolescence"
+	},
+
+	"fake-id": {
+		"memory":"",
+		"description":"",
+		"emotion": "sadness",
+		"age": "late-adolescence"
+	},
+
+	"webkinz": {
+		"memory":"",
+		"description":"",
+		"emotion": "sadness",
+		"age": "late-adolescence"
+	},
+
+	"trousers": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "adolescence"
+	},
+
+	"sketchbook": {
+		"memory":"",
+		"description":"",
+		"emotion": "fear",
+		"age": "infancy"
+	},
+	"call-me-by-your-name": {
+		"memory":"",
+		"description":"",
+		"emotion": "sadness",
+		"age": "childhood"
+	},
+
+	"jesse-mccartney": {
+		"memory":"",
+		"description":"",
+		"emotion": "sadness",
+		"age": "childhood"
+	},
+
+	"gov-ball-2017": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "childhood"
+	},
+	"camps-r-us": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "childhood"
+	},
+	"hawthorne": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "early-adolescence"
+	},
+
+	"beer-can": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "chilhood"
+	},
+
+	"paris": {
+		"memory":"",
+		"description":"",
+		"emotion": "disgust",
+		"age": "infancy"
+	},
+
+	"rome": {
+		"memory":"",
+		"description":"",
+		"emotion": "disgust",
+		"age": "infancy"
+	},
+
+	"fit": {
+		"memory":"",
+		"description":"",
+		"emotion": "anger",
+		"age": "childhood"
+	},
+
+	"pikachu": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "infancy"
+	},
+	"halo": {
+		"memory":"",
+		"description":"",
+		"emotion": "sadness",
+		"age": "childhood"
+	},
+
+	"film-camera": {
+		"memory":"",
+		"description":"",
+		"emotion": "joy",
+		"age": "late-adolescence"
+	},
+
+	"polaroids": {
+		"memory":"",
+		"description":"",
+		"emotion": "sadness",
+		"age": "late-adolescence"
+	}
+
+
+}
