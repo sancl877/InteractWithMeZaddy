@@ -15,7 +15,6 @@ div{
 var i =0
 var url = "https://raw.githubusercontent.com/robbykraft/CoreInteraction/master/divs.json"
 
-var divs=[]
 $.getJSON(url, function(data){
 	for (var i=0; i<url.length; i= i+1){
 		var div = document.createElement("div");
