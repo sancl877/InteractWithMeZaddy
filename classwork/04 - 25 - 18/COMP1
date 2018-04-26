@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MISSING</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<style type="text/css">
+div{
+	background-color: black;
+	position: absolute;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+var i =0
+var url = "https://raw.githubusercontent.com/robbykraft/CoreInteraction/master/divs.json"
+
+var divs=[]
+$.getJSON(url, function(data){
+	for (var i=0; i<url.length; i= i+1){
+		var div = document.createElement("div");
+		div.style.top = data[i].top + "px";
+		div.style.length = data[i].length + "px"; 
+		div.style.width = data[i].width + "px";
+		div.style.height = data[i].height + "px";
+		document.body.appendChild(div);
+		}
+	})
+
+
+
+// function getData(){
+// 	for(var i = 0; i< url.length; i = i+1){
+// 		$.getJSON(url, function(data){
+	
+// 		console.log(data);
+// 	classmates.push(data);
+// 	var p = document.createElement("div");
+// 	})
+// 	}
+// }
+
+
+
+</script>
+</body>
+
+</html>
